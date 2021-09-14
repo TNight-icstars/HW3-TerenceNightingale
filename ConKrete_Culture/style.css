@@ -1,0 +1,70 @@
+@font-face {
+    font-family: sansLight;
+    src: url(/ModernSans-Light.otf);
+}
+
+th{
+    font-size: 20pt;
+}
+
+.artPic{
+    box-shadow: 5px 10px 10px;
+}
+
+
+.artOne{
+    text-align: center;
+    width: 1000px;
+}
+
+.artTwo{
+    text-align: center;
+    width: 1000px;
+}
+
+.artThree{
+    text-align: center;
+    width: 1000px;
+}
+
+.content{
+    margin: 0 auto;
+    background-color: white;
+    font-family: sansLight;
+    
+
+}
+
+.artHeading{
+    text-decoration:underline;
+    font-style:italic;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+.wrapper{
+    width: 1100px;
+    margin: 0 auto;
+}
+
+.content{
+    position: relative;
+    top: 300px;
+    height: auto;
+    width: 1000px;
+    margin-bottom: 100px;
+}
+
+.artHeading a:link{
+    color: black;
+}
+
+.artHeading a:visited{
+    color: black;
+}
