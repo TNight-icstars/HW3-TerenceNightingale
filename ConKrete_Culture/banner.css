@@ -1,0 +1,87 @@
+@font-face {
+    font-family: trashHand;
+    src: url(/Tag\ Hand\ Graffiti\ Trash_fat.otf);
+}
+
+li{
+    list-style: none;
+    display: inline;
+    padding-left:90px;
+    padding-right: 90px;
+    font-family: trashHand;
+}
+
+.nav{
+    width: 100%;
+    padding-left: 50px;
+    background-color: black;
+}
+
+.nav a{
+    letter-spacing: 2px;
+    text-decoration: white;
+}
+
+.nav a:link{
+    color: white;
+}
+
+.nav a:visited{
+    color: white;
+}
+
+.nav a:hover{
+    color: red;
+}
+
+.conkrete{
+    float: left;
+    padding-top: 50px;
+    padding-left: 100px;
+    font-family: trashHand;
+    color: #111;
+}
+
+.kulture{
+    float: right;
+    padding-right: 100px;
+    padding-top: 50px;
+    font-family: trashHand;
+    color: #111;
+}
+
+h1 span{
+    animation: animate 3s infinite;
+}
+
+@keyframes animate{
+    0%,100%{
+        color: #fff;
+        filter: blur(2px);
+    }
+    5%,95%{
+        color: #111;
+        filter: blur(0px);
+    }
+}
+
+header{
+    height: 150px;
+    background: black;
+    width: 100%;
+    z-index: 12;
+    position: fixed;
+}
+
+.banner{
+    width: 100%;
+    height: 500px;
+    position: fixed;
+    top: 100px;
+    background-size: cover;
+    background-position: center center;
+}
+
+.logo{
+    text-align: center;
+}

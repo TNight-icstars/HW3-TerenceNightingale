@@ -1,0 +1,57 @@
+/*.image{
+    background-image: url(/photos/abotubckgrnd.jpg);
+    width: 1100px;
+    height: 500px;
+    background-repeat: no-repeat;
+    position:relative;
+    left: 25%;
+    right: 30%;
+    z-index: -1;
+    filter: blur(5px);
+    -webkit-filter: blur(5px);
+}
+
+.aboutImg{
+    padding-top: 280px;
+}
+
+.about{
+    z-index: 2;
+    height: 600px;
+    width: 600px;
+    position: relative;
+    right: 30%;
+    left: 30%;
+    padding-top: 100px;
+    color: whitesmoke;
+    font-family: trashHand;
+    letter-spacing: 2px;
+    text-align: center;
+}*/
+
+.bckgrnd{
+    width: 80%;
+    margin: 0 auto;
+    position: absolute;
+    left: 55%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.aboutpic{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.aboutcontent{
+    font-family: sansLight;
+    font-weight: bolder;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%, -50%);
+    letter-spacing: 2px;
+}
+
